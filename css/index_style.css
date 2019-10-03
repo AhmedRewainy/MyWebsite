@@ -127,7 +127,7 @@ li a:hover
 {
    position: absolute;
     bottom:45%;
-    left: 33%;
+    left: 34%;
     color: white;
 }
 .text
@@ -431,7 +431,7 @@ li a:hover
     -webkit-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
-	float: left
+    float: left;
 }
 
 .form-control {
@@ -455,9 +455,10 @@ li a:hover
     
 }
 .btn-buttons {
-		color: #fff;
-    background:     gray;
-    width: 100%;
+	color: #fff;
+    background:  #1A1A26;
+    width: 50%;
+    margin-left: 25%;
     padding: 12px 2.5rem;
     display: inline-block;
     font-weight: bold;
@@ -472,12 +473,13 @@ li a:hover
     border: 1px solid transparent;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
-    transition: all .5s ease;
-    margin-top: 30;
+    transition: all 2s ease;
+    margin-bottom: 30;
 }
 .btn-buttons:hover {
 	color: white;
     background: black;
+    transform: scale(1.5);
     
 }
 .main-header
@@ -486,48 +488,11 @@ li a:hover
 }
 
 
-.links ul {
-	 margin: auto;
-	 width: 20%
-}
-.links ul li {
-	float: left;
-	padding: 10px
-}
-.links ul li i {
-	font-size: 14px;
-}
-.links ul .face,
-.links ul .twitter,
-.links ul .instagram,
-.links ul .ball,
-.links ul .whatsapp {
-	border-radius: 50%;
-	transition: all .5s ease-in-out
-}
-.links ul .face:hover {
-	background: #3b5998;
-	color: white
-}
-.links ul .twitter:hover {
-	background: #00acee;
-	color: white
-}
-
-.links ul .instagram:hover {
-	background: #3f729b;
-	color: white
-}
-.links ul .whatsapp:hover {
-	background: #25D366;
-	color: white
-}
-
 
 
 #scroll-top  {
     width: 40px;
-		color: #fff;
+	color: #5D84A6;
     height: 40px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -539,10 +504,92 @@ li a:hover
     z-index: 1000;
     bottom: 16px;
     right: 40px;
-    background: gray;
-		cursor: pointer;
-		transition: all .5s ease-in-out
+    background: #364559;
+	cursor: pointer;
+    transition: all .5s ease-in-out;
+    padding: 5;
 }
 #scroll-top:hover {
-	background:black;
+	background:#1A1A26;
+}
+
+
+#footer 
+{
+    background-color: #0D0D0D;
+    color: white;
+
+
+}
+.links 
+{
+    text-align: center;
+    padding-top: 50;
+    font-size: 14; 
+
+
+}
+.links ul li
+ {
+	float: right;
+    padding: 10px;
+}
+.links ul .face,
+.links ul .twitter,
+.links ul .google,
+.links ul .git
+{
+    border-radius: 50%;
+    transition: all .5s ease-in-out
+
+
+
+}
+.links ul .face:hover
+ {
+	background: #3b5998;
+    color: white
+
+}
+.links ul .twitter:hover {
+	background: #00acee;
+	color: white
+}
+.links ul .google:hover {
+	background: #e84455;
+	color: white
+}
+.links ul .git:hover {
+	background: #3f729b;
+	color: white
+}
+
+
+.contc
+{
+    text-align: center;
+    padding-top: 50;
+    font-size: 14; 
+    float: left;
+
+}
+.contc .pho,
+.eml
+{
+    color: white;
+    padding: 10;
+    font-size: 18;
+    transition: all 0.5s;
+    border-radius: 50%;
+
+}
+
+ .eml:hover 
+{
+    color: #3b5998;
+
+}
+.pho:hover 
+{
+    color: #3b5998;
 }

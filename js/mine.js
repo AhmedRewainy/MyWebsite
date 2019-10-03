@@ -46,7 +46,6 @@ $("#loading").fadeOut(2000 , function(){
 })
 
 
-
 $(document).ready(function (){
     var scrollLink = $('.SCROLL');
     // smooth scroll
